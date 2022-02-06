@@ -15,7 +15,7 @@
 
 ## Description
 
-{This is a web application project for learners. It contains a java script test for the learners. It is a multiple choice question test.}
+{This is a web application project for learners in a Computer club. It contains a java script test for the learners. It is a multiple choice question test.}
 
 ## Setup/Installation
 
