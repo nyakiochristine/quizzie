@@ -3,44 +3,45 @@
     padding: 0%;
     margin: 0%;
     background-color:#172d80;
+    box-shadow: #172d80;
     
     
 }
 h1{
     background-color: #622F2C;
     position: relative;
-    left: 200px;
+    left: 150px;
     width: 700px;
     height: 100px;
+
     
 }
 h2{
     color: black;
     background-color: #F178B6;
     position: relative;
+    top:-20px;
     left: 400px;
-    top: 20px;
     height: 50px;
     width: 300px;
     font-size: 20px;
 }
 .heads{
-    background-color:rgb(233, 40, 169);
     width: 1000px;
     position: relative;
     left: 50px;
     align-content: center;
 }
 body{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
+    padding-top: 20px;
 }
 #submit{
     background-color: #F178B6;
     border-radius: 10px;
-    width: 70px;
-    height: 30px;
-    font-size: 17px;
+    padding: 5px;
+    font-size: 20px;
     position: relative;
     left: 200px;
     border-style: none;
