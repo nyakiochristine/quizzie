@@ -1,25 +1,24 @@
 function myButton() {
-
-} 
-{
-    var score=0
-    var correctAnswer1=document.firstChild.number1.value;
-    var correctAnswer2=document.firstChild.number2.value;
-    var correctAnswer3=document.firstChild.number3.value;
-    var correctAnswer4=document.firstChild.number4.value;
-    var correctAnswer5=document.firstChild.number5.value;
+    var Correct=0;
+    document.write(score);
+     var currentAnswer1=document.Quick.number1.value;
+    var currentAnswer2=document.Quick.number2.value;
+    var currentAnswer3=document.Quick.number3.value;
+    var currentAnswer4=document.Quick.number4.value;
+    var currenttAnswer5=document.Quick.number5.value;
     var test=getElementById("test")
     var result=document.getElementById("text")
-    if (correctAnswer1=="Array") {score+=20};
-    if (correctAnswer2=="Script") {score+=20};
-    if (correctAnswer3=="const") {score+=20};
-    if (correctAnswer4=="Correct") {score+=20};
-    test.style.display="none";
+    if (currenttAnswer1=="Array") {score++};
+    if (currentAnswer2=="Script") {score+=20};
+    if (currentAnswer3=="const") {score+=20};
+    if (currentAnswer4=="Correct") {score+=20};
+    
     
     if (score>=4) {
     result.textContent= "Your score is 80%. Congratulations";
     } else{
 
     }
-
 }
+
+
