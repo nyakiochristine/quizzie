@@ -35,6 +35,16 @@ body{
     font-size: 17px;
     font-weight: bold;
 }
+#submit{
+    background-color: #F178B6;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: 17px;
+    position: relative;
+    left: 200px;
+    border-style: none;
+}
 
 
 
