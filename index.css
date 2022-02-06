@@ -18,15 +18,24 @@ h2{
     color: black;
     background-color: #F178B6;
     position: relative;
-    left: 200px;
-    top: 0px;
+    left: 400px;
+    top: 20px;
     height: 50px;
     width: 300px;
     font-size: 20px;
 }
 .heads{
     background-color:rgb(233, 40, 169);
+    width: 1000px;
+    position: relative;
+    left: 50px;
+    align-content: center;
 }
+body{
+    font-size: 17px;
+    font-weight: bold;
+}
+
 
 
 
