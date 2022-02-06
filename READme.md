@@ -22,7 +22,7 @@
 ### Requirements
 
 + clone repository
-{https://nyakiochristine.github.io/quizzie/}
+{<https://nyakiochristine.github.io/quizzie/>}
 *either a computer,phone,tablet or an Ipad
 *An access to the internet
 
