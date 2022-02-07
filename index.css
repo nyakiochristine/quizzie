@@ -2,8 +2,8 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    background-color:#1a338d;
-    box-shadow: #172d80;
+    background-color:#abb2cc;
+    box-shadow: #1d41c4;
     
     
 }
@@ -33,7 +33,7 @@ h2{
     align-content: center;
 }
 body{
-    font-size: 19px;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
 }
@@ -47,7 +47,7 @@ body{
     border-style: none;
 }
 div{
-    margin: 50px;
+    margin: 60px;
 }
 
 
