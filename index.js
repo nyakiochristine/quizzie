@@ -22,7 +22,7 @@ function myButton() {
         result.textContent='Congrats you  scored' + score + 'you have fairly passed'
     }
     else {
-        result.textContent=`You scored{score}retake the test!`
+        result.textContent=`You scored' + score + 'retake the test!`
     }
 
 
