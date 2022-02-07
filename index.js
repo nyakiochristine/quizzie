@@ -16,10 +16,13 @@ function myButton() {
     document.write(score);
     // alert(score)
     
-    if (score>=4) {
-   result.textContent= "Your score is 80%. Congratulations";
-    } else{
-
+    if (score>=80) {
+   result.textContent= 'Congrats you scored' + score + 'you have excellently passed'
+    } else if(score>=50){
+        result.textContent='Congrats you  scored' + score + 'you have fairly passed'
+    }
+    else {
+        result.textContent=`You scored{score}retake the test!`
     }
 
 
