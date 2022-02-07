@@ -2,13 +2,13 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    background-color:#172d80;
+    background-color:#1a338d;
     box-shadow: #172d80;
     
     
 }
 h1{
-    background-color: #622F2C;
+    background-color: #bd2ba4;
     position: relative;
     left: 150px;
     width: 700px;
@@ -18,10 +18,10 @@ h1{
 }
 h2{
     color: black;
-    background-color: #F178B6;
+    background-color: #e44195;
     position: relative;
     top:-20px;
-    left: 400px;
+    left: 500px;
     height: 50px;
     width: 300px;
     font-size: 20px;
@@ -33,18 +33,21 @@ h2{
     align-content: center;
 }
 body{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
     padding-top: 20px;
 }
 #submit{
     background-color: #F178B6;
     border-radius: 10px;
-    padding: 5px;
+    padding: 20px;
     font-size: 20px;
     position: relative;
     left: 200px;
     border-style: none;
+}
+div{
+    margin: 50px;
 }
 
 
