@@ -17,14 +17,20 @@ function myButton() {
     // alert(score)
     
     if (score>=80) {
-   result.textContent= 'Congrats you scored' + score + 'you have excellently passed'
+
+        document.getElementById("result").innerHTML='Congrats you scored' + score + 'you have excellently passed'
     } else if(score>=50){
-        result.textContent='Congrats you  scored' + score + 'you have fairly passed'
+        document.getElementById("result").innerHTML='Congrats you  scored' + score + 'you have fairly passed'
     }
     else {
-        result.textContent=`You scored' + score + 'retake the test!`
+        document.getElementById("result").innerHTML='`You scored' + score + 'retake the test!'
     }
 
 
 
+}
+
+function resetValue() {
+    var radio = document.querySelector('input[type=radio]:checked');
+    radio.checked = false;
 }
